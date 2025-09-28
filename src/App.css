@@ -1,1 +1,70 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Vazir";
+  src: url("/fonts/Vazir.woff2") format("woff2");
+  font-weight: 400; 
+  font-style: normal;
+}
+@font-face {
+  font-family: "Estedad-Light";
+  src: url("/fonts/Estedad-Light.woff2") format("woff2");
+  font-weight: 400; 
+  font-style: normal;
+}
+
+@theme {
+  --font-Vazir: "Vazir";
+  --font-Estedad-Light: "Estedad-Light";
+  /* --font-serif: "Merriweather", Georgia, serif;
+  --font-mono: "Fira Code", monospace; */
+
+    /*Coustom breakpoints */
+  --breakpoint-xs: 480px;
+
+    /* Coustom Paddings  */
+    --spacing-8:  8px;
+    --spacing-16: 16px;
+    --spacing-24: 24px;
+    --spacing-32: 32px;
+    /* Coustom border  */
+     --radius-4 : 4px ;
+     --radius-8 : 8px ;
+     --radius-16: 16px;
+     --radius-24: 24px;
+     --radius-32: 32px;
+
+    /* Coustom colors  */
+    --color-tint-1  : #E5F2E9;
+    --color-tint-2  : #CAE4D3;
+    --color-tint-3  : #B0D7BD;
+    --color-tint-4  : #96C9A7;
+    --color-tint-5  : #7CBC91;
+    --color-tint-6  : #61AE7B;
+    --color-primary : #417F56;
+    --color-shade-1 : #396F4B;
+    --color-shade-2 : #315F41;
+    --color-shade-3 : #294F36;
+    --color-shade-4 : #21402B;
+    --color-shade-5 : #183020;
+    --color-shade-6 : #102016;
+    --color-shade-7 : #08100B;
+    --color-gray-1  : #F9F9F9;
+    --color-gray-2  : #E1E1E1;
+    --color-gray-3  : #EDEDED;
+    --color-gray-4  : #CBCBCB;
+    --color-gray-5  : #ADADAD;
+    --color-gray-6  : #757575;
+    --color-gray-7  : #717171;
+    --color-gray-8  : #353535;
+    --color-black   : #0C0C0C;
+    --color-Error   : #C30000;
+    --color-errorlight : #ED2E2E;
+    --color-errorextralight : #FFF2F2;
+    --color-success : #00966D;
+    --color-successlight : #00BA88;
+    --color-warning : #A9791C;
+    --color-warninglight : #F4B740;
+    --color-warningextralight : #FFF8E1;
+
+}
