@@ -23,6 +23,8 @@
   --breakpoint-xs: 480px;
 
     /* Coustom Paddings  */
+    --spacing-4:  4px;
+    --spacing-6:  6px;
     --spacing-8:  8px;
     --spacing-16: 16px;
     --spacing-24: 24px;
